@@ -1,5 +1,15 @@
 module.exports = {
   base: '/tutorial_startup/',
-  title: 'blog-demo',
-  description: 'Vuepress blog demo'
+  title: 'XXX的教程',
+  description: '一个基本的课程框架',
+  themeConfig: {
+    sidebar: 'auto',
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '快速教程', link: '/tutorial' },
+      { text: '文档', link: '/document' },
+      { text: '作者简介', link: '/author' },
+    ],
+    
+  }
 }
