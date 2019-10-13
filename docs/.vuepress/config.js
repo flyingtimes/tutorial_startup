@@ -2,6 +2,7 @@ module.exports = {
   base: '/tutorial_startup/',
   title: 'XXX的教程',
   description: '一个基本的课程框架',
+  plugins: [ 'code-switcher' ],
   themeConfig: {
     sidebar: 'auto',
     nav: [
