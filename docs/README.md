@@ -1,6 +1,7 @@
 ---
 home: true
 heroText: 关于XXX的入门教程
+heroImage: /god.jpg
 tagline: XXX
 actionText: 快速上手 →
 actionLink: /tutorial
