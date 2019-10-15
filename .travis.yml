@@ -4,7 +4,9 @@ node_js:
 install:
   - npm ci
 script:
-  - npm run docs:build
+  - npm install -g vuepress
+  - npm install --save
+  - vuepress build docs
 deploy:
   provider: pages
   skip-cleanup: true
