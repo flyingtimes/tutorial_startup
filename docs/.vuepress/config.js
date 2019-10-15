@@ -8,7 +8,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '快速教程', link: '/tutorial' },
-      { text: '文档', link: '/document' },
+      { text: '文档', link: '/documentation' },
       { text: '作者简介', link: '/author' },
     ],
     
