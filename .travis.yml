@@ -6,6 +6,7 @@ install:
 script:
   - npm install -g vuepress
   - npm install --save
+  - cp ./CodeSwitcher.vue node_modules/vuepress-plugin-code-switcher/components/
   - vuepress build docs
 deploy:
   provider: pages
